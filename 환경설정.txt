@@ -1,0 +1,19 @@
+0. 현재 가상환경 목록 확인
+conda env list
+
+1. 가상환경 만들기
+conda create -n mldl python=3.6.9
+
+2. 가상환경 활성화 하기
+conda activate mldl
+
+3. 가상환경에 설치된 라이브러리 확인
+conda list
+
+4. 현재 가상환경에 라이브러리 설치
+(mldl) D:\Lecture\ML_DL>pip install -r requirements.txt
+
+5. 주피터 노트북 설치
+pip install jupyter
+한글 사용자일 경우 아래로 설치
+conda install jupyter
