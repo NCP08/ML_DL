@@ -3,4 +3,6 @@ numpy==1.18.5
 matplotlib==3.2.2
 scikit-learn==0.22.2
 pandas
+xgboost
+lightgbm
 jupyter
